@@ -72,10 +72,14 @@ $ diff my-jenkins-values.yaml jenkins-values.yaml
 >   serviceType: NodePort
 145a147
 >   nodePort: 32000
+247c249
+<   installLatestPlugins: true
+---
+>   installLatestPlugins: false
 771c773
 <   storageClass:
 ---
->   storageClass: jenkins-pv
+>   storageClass: 
 807c809
 <   create: true
 ---
