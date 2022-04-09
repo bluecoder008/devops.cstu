@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   #repository: binblee/springboot-helm-chart
-  repository: 2021devops/springboot-demo
+  repository: 2022devops/springboot-demo
   tag: latest
   pullPolicy: IfNotPresent
 service:
